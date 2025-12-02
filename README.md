@@ -1,6 +1,6 @@
-# Example Home Assistant add-on repository
+# Dan's Test Home Assistant add-on repository
 
-This repository can be used as a "blueprint" for add-on development to help you get started.
+For personal experimentation.
 
 Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
@@ -10,12 +10,12 @@ Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
 
 This repository contains the following add-ons
 
-### [Example add-on](./example)
+### [OpenThread Border Router Dans version](./openthread_border_router)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 
-_Example add-on to use as a blueprint for new add-ons._
+_Test version for experimentation._
 
 <!--
 
