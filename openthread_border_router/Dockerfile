@@ -3,6 +3,7 @@ FROM $BUILD_FROM
 
 ARG BUILD_ARCH
 ARG OTBR_VERSION
+ARG SERIALX
 ARG UNIVERSAL_SILABS_FLASHER
 
 # Set shell
@@ -97,6 +98,7 @@ RUN \
         && ninja install) \
     && pip install --break-system-packages \
        universal-silabs-flasher==${UNIVERSAL_SILABS_FLASHER} \
+       serialx==${SERIALX} \
     && apt-get purge -y --auto-remove \
        git \
        nodejs \

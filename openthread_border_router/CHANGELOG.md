@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.15.5
+- Add puddly's usb hardware flow control pin solution
+
+## 2.15.4
+- Reset adapter at startup (experiment) bugfix
+
 ## 2.15.3
 - Reset adapter at startup (experiment)
 
